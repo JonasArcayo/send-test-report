@@ -1,0 +1,22 @@
+{
+	"name": "cypress-ctrf-reporter",
+	"version": "1.0.0",
+	"description": "A Cypress reporter that sends CTRF-style test reports to Slack or Microsoft Teams via webhook.",
+	"scripts": {
+		"cypress:run": "npx cypress run",
+		"cypress:open": "npx cypress open",
+		"send-report": "npx send-test-report --report results/ctrf-report.json --webhook $WEBHOOK_URL"
+	},
+	"author": "Jonas Arcayo",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress-ctrf-json-reporter": "^0.0.12",
+		"send-test-report": "^1.0.0"
+	},
+	"dependencies": {
+		"cypress": "^14.3.0"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
