@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# output
+dist/
+build/
+coverage/
+cypress/videos/
+cypress/screenshots/
+
+# Cypress config cache
+.cypress_cache/
+.cypress/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
