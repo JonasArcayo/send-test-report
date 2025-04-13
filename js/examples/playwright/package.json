@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:run": "npx playwright test",
+    "send-report": "npx send-test-report --report results/ctrf-report.json --webhook $WEBHOOK_URL"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1",
+    "playwright-ctrf-json-reporter": "^0.0.20",
+    "send-test-report": "^1.0.0"
+  }
+}

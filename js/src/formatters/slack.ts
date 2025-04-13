@@ -3,7 +3,7 @@ import { SlackMessage } from '../types/slackMessage';
 
 export function formatSlackMessage(report: CTRFReport): SlackMessage {
 	// Calculate duration in minutes and seconds
-	const totalSeconds = report.results.summary.stop - report.results.summary.start;
+	const totalSeconds = (report.results.summary.stop - report.results.summary.start) / 1000;
 	const minutes = Math.floor(totalSeconds / 60);
 	const seconds = Math.floor(totalSeconds % 60);
 
