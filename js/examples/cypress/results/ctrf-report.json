@@ -1,0 +1,85 @@
+{
+  "results": {
+    "tool": {
+      "name": "cypress"
+    },
+    "summary": {
+      "tests": 6,
+      "failed": 0,
+      "passed": 6,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1744564722311,
+      "stop": 1744564726989
+    },
+    "tests": [
+      {
+        "name": "example to-do app displays two todo items by default",
+        "status": "passed",
+        "duration": 414,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\e2e\\1-getting-started\\todo.cy.js",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 130.0.6723.137"
+      },
+      {
+        "name": "example to-do app can add new todo items",
+        "status": "passed",
+        "duration": 389,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\e2e\\1-getting-started\\todo.cy.js",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 130.0.6723.137"
+      },
+      {
+        "name": "example to-do app can check off an item as completed",
+        "status": "passed",
+        "duration": 172,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\e2e\\1-getting-started\\todo.cy.js",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 130.0.6723.137"
+      },
+      {
+        "name": "example to-do app with a checked task can filter for uncompleted tasks",
+        "status": "passed",
+        "duration": 262,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\e2e\\1-getting-started\\todo.cy.js",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 130.0.6723.137"
+      },
+      {
+        "name": "example to-do app with a checked task can filter for completed tasks",
+        "status": "passed",
+        "duration": 268,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\e2e\\1-getting-started\\todo.cy.js",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 130.0.6723.137"
+      },
+      {
+        "name": "example to-do app with a checked task can delete all completed tasks",
+        "status": "passed",
+        "duration": 275,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\e2e\\1-getting-started\\todo.cy.js",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 130.0.6723.137"
+      }
+    ]
+  }
+}
