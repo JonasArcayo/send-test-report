@@ -15,7 +15,7 @@ export function formatSlackMessage(report: CTRFReport): SlackMessage {
 				'type': 'header',
 				'text': {
 					'type': 'plain_text',
-					'text': `📊 Test Execution Report: ${report.results.environment?.reportName || 'Unnamed Report'}`,
+					'text': `📊 Test Execution Report: ${report.results.environment?.appName || 'Unnamed Report'}`,
 					'emoji': true
 				}
 			},

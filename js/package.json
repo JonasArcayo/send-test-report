@@ -1,11 +1,13 @@
 {
-	"name": "send-test-report",
-	"version": "1.0.0",
+	"name": "@testkit/send-test-report",
+	"version": "0.0.2",
 	"description": "A simple utility to send CTRF-style test reports to Slack or Microsoft Teams via webhook.",
 	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"bin": {
 		"send-test-report": "dist/index.js"
 	},
